@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X_UA_compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <style>
+            body {
+                background: #081b29;
+                color: #ededed;
+                font-family: Arial, sans-serif;
+            }
+
+            header {
+                position: fixed;
+                top: 0;
+                left: 60%;
+                width: 100%;
+                padding: 20px 10%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                z-index: 100%;
+            }
+
+            .navbar a {
+                font-size: 18px;
+                color: #ededed;
+                text-decoration: none;
+                font-weight: 500;
+                margin-left: 20px;
+                margin-right: 0%;
+                transition: .3s;
+            }
+
+            .navbar a:hover,
+            .navbar a.active {
+                color: fuchsia;
+            }
+            h1 {
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 100;
+                margin-top: 5%;
+                color: fuchsia;
+            }
+            .href {
+                align-items: center;
+            }
+
+           .contact-icons {
+                display: flex;
+                justify-content: center;
+                margin-top: 15%;
+                list-style-type: none;
+            }
+
+            .contact-icons li {
+                margin-right: 50px;
+            }
+
+            .contact-icons a i {
+                color: fuchsia;
+                border: 2px solid transparent;
+                border-radius: 50%;
+                padding: 5px;
+                transition: border-color 0.3s;
+            }
+
+            .contact-icons a i:hover {
+                border-color: fuchsia;
+            }
+        </style>
+        <title>Contact</title>
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </header>
+        <h1>Contact me Via:</h1>
+        <ul class="contact-icons">
+           <li><a href="mailto:revillaerica1@gmail.com"><i class="fas fa-envelope fa-4x"></i></a></li>
+           <li><a href="https://www.facebook.com/EricaRevilla"><i class="fab fa-facebook fa-5x"></i></a></li>
+           <li><a href="https://www.instagram.com/i.am.erica8"><i class="fab fa-instagram fa-6x"></i></a></li>
+           <li><a href="https://www.telegram.com/@saviiieess"><i class="fab fa-telegram fa-7x"></i></a></li>
+        </ul>
+    </body>
+</html>

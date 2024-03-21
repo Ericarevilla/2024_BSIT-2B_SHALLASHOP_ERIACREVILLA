@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="widht=device-width, intitial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <style>
+            body {
+                background: #081b29;
+                color: #ededed;
+                font-family: Arial, sans-serif;
+            }
+
+            header {
+                position: fixed;
+                top: 0;
+                left: 60%;
+                width: 100%;
+                padding: 20px 10%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                z-index: 100%;
+            }
+
+
+            .image-container img {
+                width: 85%;
+                height: auto;
+                margin-left: 10%;
+            }
+
+            .image-container {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                overflow: hidden;
+                border: 2px solid fuchsia;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(220, 35, 171, 0.979);
+                margin-left: 40%;
+                margin-top: 5%;
+            }
+
+            h1 {
+                position: relative;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 1.5;
+                text-align: center;
+                color: fuchsia;
+            }
+
+            .columns {
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-start;
+                padding: 20px;
+            }
+
+            .column {
+                flex: 1;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(214, 34, 175, 0.1);
+                border-color: fuchsia;
+                margin: 10px;
+                width: 200px;
+                height: 400px;
+                text-align: center;
+            }
+
+            p {
+                text-align: left;
+            }
+
+            .column h1 {
+                position: relative;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 1.5;
+                text-align: center;
+                color: fuchsia; 
+            }
+
+            .navbar a {
+                font-size: 18px;
+                color: #ededed;
+                text-decoration: none;
+                font-weight: 500;
+                margin-left: 20px;
+                margin-right: 0%;
+                transition: .3s;
+            }
+
+            .navbar a:hover,
+            .navbar a.active {
+                color: fuchsia;
+            }
+        </style>
+        <title>Resume</title>
+    </head>
+    <body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resume.html" class="active">Resume</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+        <section class="resume">
+            <div class="resume-content">
+                <div class="image-container">
+                    <img src="received_423924143505019.jpeg" alt="Image2">
+                </div>
+                <h1>Erica R. Revilla</h1>
+
+                <div class="content-container">
+                    <div class="columns">
+                        <div class="column">
+                            <h1>ABOUT ME</h1>
+                            <p>NAME: Revilla, Erica, R.</p>
+                            <p>AGE: 20</p>
+                            <p>DATE OF BIRTH: July 31, 2003</p>
+                            <p>ADDRESS: Tobog, Oas, Albay</p>
+                        </div>
+
+                        <div class="column">
+                            <h1>SKILLS</h1>
+                            <ul>
+                                <li>Cooking</li>
+                                <li>Make Up</li>
+                                <li>Photography</li>
+                                <li>Digital Arts</li>
+                            </ul>
+                        </div>
+
+                        <div class="column">
+                            <h1>EDUCATIONAL ATTAINMENT</h1>
+                            <p>TERTIARY: Bicol University Polangui<br>SY:2022-2026</p>
+                            <p>SECONDARY: Tobog National High School<br>SY:2016-2022</p>
+                            <p>ELEMENTARY: Tobog Elementary School<br>SY:2010-2016></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

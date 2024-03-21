@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UACompatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<style>
+    body {
+        background: #081b29;
+        color: #ededed;
+    }
+
+    .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.activate {
+    color: fuchsia;
+}
+
+
+
+.home-content h1 {   
+    text-align: center;
+    margin-top: 20%;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: fuchsia;
+}
+
+.home-content p {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+</style>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Erica.</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Thank You For Hiring Me!</h1>
+            <h3>Gratitude for the Opportunityn to Join Your Company</h3>
+            <p>I wanted to take a moment to express my heartfelt gratitude for offering me the opportunity to<br>
+                join your company. I am truly honored and excited to become a part of such a dynamic team<br> and contribute
+                to the incredible work being done here.
+            </p>
+        </div>
+    </section>
+</body>
+</html>
